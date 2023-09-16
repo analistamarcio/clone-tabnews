@@ -1,4 +1,4 @@
-const calculator = require("../models/calculator");
+const calculator = require("../../models/calculator");
 
 describe("Calculator", () => {
   it("The sum of 2 + 2 should return 4", () => {
