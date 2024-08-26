@@ -32,7 +32,8 @@ async function getNewClient() {
     database: process.env.POSTGRES_DB ?? "noname",
     password: process.env.POSTGRES_PASSWORD ?? "nopass",
     // ssl: process.env.NODE_ENV !== "development",
-    ssl: getSSLValues(),
+    // ssl: getSSLValues(),
+    ssl: 'require',
   });
 
   await client.connect();
