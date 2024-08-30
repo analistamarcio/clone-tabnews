@@ -21,7 +21,7 @@ function getSSLValues() {
     };
   }
 
-  return process.env.NODE_ENV === "pruduction" ? true : false;
+  return process.env.NODE_ENV === "production" ? true : false;
 }
 
 async function getNewClient() {
