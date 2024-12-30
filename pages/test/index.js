@@ -5,10 +5,10 @@ function DayOfWeek() {
 
   switch (day) {
     case 1:
-      linkReturn = "adt3sotouKY";
+      linkReturn = "https://youtu.be/adt3sotouKY";
       break;
     case 2:
-      linkReturn = "trPTACTi4u0";
+      linkReturn = "https://youtu.be/trPTACTi4u0";
       break;
     default:
       linkReturn = "https://www.cutthecode.com/404";
@@ -28,17 +28,17 @@ export default function ReturnLink() {
 
 /*
 domingo:
-mQ_9fBlSYvo
+https://youtu.be/mQ_9fBlSYvo
 segunda:
-adt3sotouKY
+https://youtu.be/adt3sotouKY
 terça:
-trPTACTi4u0
+https://youtu.be/trPTACTi4u0
 quarta:
-aPIydl4UH6U
+https://youtu.be/aPIydl4UH6U
 quinta:
-PELHi5nipXI
+https://youtu.be/PELHi5nipXI
 sexta:
-B4uHeJrlpSo
+https://youtu.be/B4uHeJrlpSo
 sábado:
-UTW_1FufwFU
+https://youtu.be/UTW_1FufwFU
 */
